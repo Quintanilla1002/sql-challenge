@@ -1,3 +1,5 @@
+---Create tables for CSV files
+
 CREATE TABLE titles(
 	title_id VARCHAR PRIMARY KEY,
 	title VARCHAR NOT NULL);
@@ -44,4 +46,3 @@ CREATE TABLE dept_manager(
 	FOREIGN KEY (dept_no) REFERENCES departments(dept_no));
 	
 SELECT * FROM dept_manager;
-	
